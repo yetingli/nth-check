@@ -1,7 +1,7 @@
 // Following http://www.w3.org/TR/css3-selectors/#nth-child-pseudo
 
 // [ ['-'|'+']? INTEGER? {N} [ S* ['-'|'+'] S* INTEGER ]?
-const RE_NTH_ELEMENT = /^([+-]?\d*n)?\s*(?:([+-]?)\s*(\d+))?$/;
+const RE_NTH_ELEMENT = /^([+-]?\d*n)?\s*(?:([+-])\s*)?(?:(\d+))?$/;
 
 /**
  * Parses an expression.
